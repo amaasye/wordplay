@@ -24,4 +24,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+-(IBAction)startOver:(UIStoryboardSegue *)segue; {
+    NSLog(@"End");
+}
+
 @end
